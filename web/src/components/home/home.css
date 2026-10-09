@@ -1,0 +1,24 @@
+@keyframes es-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.es-fade-up {
+  animation: es-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.es-delay-2 {
+  animation-delay: 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .es-fade-up {
+    animation: none;
+  }
+}

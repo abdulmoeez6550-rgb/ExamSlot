@@ -1,0 +1,10 @@
+@media print {
+  .es-no-print {
+    display: none !important;
+  }
+
+  .es-print-area {
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+}
